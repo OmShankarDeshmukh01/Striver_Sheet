@@ -1,14 +1,14 @@
 package BINARY_SEARCH.Binary_Search_on_1D_Arrays;
-// arr[index] >= x
-public class Implement_Lower_Bound {
-    public static int lowerBound(int []arr, int x) {
+// arr[index] > x
+public class Implement_Upper_Bound {
+    public static int upperBound(int []arr, int x) {
         int n = arr.length;
         int start = 0;
         int end = n -1;
         int ans = n;
         while(start <= end){
             int mid = (start + end)/2;
-            if( arr[mid] >= x){
+            if( arr[mid] > x){
                 ans = mid;
                 end = mid -1;
             }
@@ -19,9 +19,9 @@ public class Implement_Lower_Bound {
         return ans;
     }
     public static void main(String[] args) {
-        int[] arr = {1 ,2, 2, 3, 3, 5};
-        int x = 6;
-        int ind = lowerBound(arr, x);
-        System.out.println("The index is: " + ind);
+        int[] arr = {3, 5, 8, 9, 15, 19};
+        int n = 9;
+        int ind = upperBound(arr,  n);
+        System.out.println("The upper bound is the index: " + ind);
     }
 }
