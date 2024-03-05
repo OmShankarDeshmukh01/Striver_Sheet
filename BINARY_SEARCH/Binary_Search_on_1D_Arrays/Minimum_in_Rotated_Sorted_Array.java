@@ -1,4 +1,3 @@
-
 public class Minimum_in_Rotated_Sorted_Array{
     public static int findMin(int[] nums) {
         int start =0;
