@@ -1,7 +1,7 @@
 package BINARY_SEARCH.Binary_Search_on_1D_Arrays;
 
 public class Ceil_and_floor_in_Sorted_Array {
-    //arr[n] <= x //floor
+    //arr[n] <= x //ceil
     static int findFloor(int[] arr, int x) {
         int n=arr.length;
         int start =0 ;
