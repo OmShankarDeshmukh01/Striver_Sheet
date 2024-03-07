@@ -8,7 +8,7 @@ public class sqrt_of_a_number {
             int mid =(start+end)/2;
             int val = mid*mid;
             if(val<=n){
-                start = mid +1;
+                start = mid + 1;
             }
             else{
                 end = mid-1;
