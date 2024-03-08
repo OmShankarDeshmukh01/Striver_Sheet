@@ -1,4 +1,4 @@
-package BINARY_SEARCH.Binary_Search_on_1D_Arrays;
+
 //aply lowerbound  in this question
 public class Search_Insert_Position {
     public static int lowerBound(int []arr, int target) {

@@ -1,4 +1,4 @@
-package BINARY_SEARCH.Binary_Search_on_1D_Arrays;
+
 // arr[index] >= x
 public class Implement_Lower_Bound {
     public static int lowerBound(int []arr, int x) {

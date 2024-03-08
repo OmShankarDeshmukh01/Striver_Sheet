@@ -1,4 +1,4 @@
-package BINARY_SEARCH.Binary_Search_on_1D_Arrays;
+
 import java.util.*;
 public class first_last_pos_of_arr {
     static int firstele(int arr[] , int target){

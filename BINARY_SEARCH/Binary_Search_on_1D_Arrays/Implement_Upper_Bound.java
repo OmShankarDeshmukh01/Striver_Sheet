@@ -1,4 +1,4 @@
-package BINARY_SEARCH.Binary_Search_on_1D_Arrays;
+
 // arr[index] > x
 public class Implement_Upper_Bound {
     public static int upperBound(int []arr, int x) {

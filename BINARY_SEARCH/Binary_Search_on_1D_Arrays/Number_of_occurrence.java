@@ -1,4 +1,4 @@
-package BINARY_SEARCH.Binary_Search_on_1D_Arrays;
+
 import java.util.*;
 public class Number_of_occurrence {
     static int firstele(int arr[] , int target){
