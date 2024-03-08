@@ -1,4 +1,4 @@
-package Binary_Search_on_1D_Arrays;
+package BINARY_SEARCH.Binary_Search_on_1D_Arrays;
 
 public class Binary_Search {
     public static int binary(int arr[] , int target){
